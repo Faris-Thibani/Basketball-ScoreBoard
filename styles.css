@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Rubik+Iso&display=swap');
+
+body {
+    margin: 0;
+    font-family: “Cursed Timer ULiL”;
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width:  600px;
+    margin: auto;
+    background-color: navy;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:block;
+    margin: auto;
+    color: red;
+    background-color: white;
+    border-radius: 10px 10px;
+    padding: 5px 10px;
+    border: black 1px;
+
+}
+.newgame{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:block;
+    margin: 30px auto;
+    color: red;
+    background-color: white;
+    border-radius: 10px 10px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    border: black 1px;
+}
+h3{
+    text-align: center;
+    color: white;
+ font-family: 'PT Serif', serif;
+ font-size: 2rem;
+}
+.score{
+    font-size:3rem;
+font-family: 'Rubik Iso', cursive;
+background: black;
+color: red;
+text-align: center;
+padding: 50px;
+}
+.points{
+    background: none;
+    color: white;
+    border-color: white;
+    margin: 10px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.highlight{
+    background-color: Yellow;
+    color:black;
+}
+#timer{
+    color:red;
+    background-color: black;
+    height: 1.5em;
+    padding: 10px;
+}

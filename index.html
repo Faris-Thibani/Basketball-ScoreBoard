@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 id="homeTitle">HOME</h3>
+            <h3 id="home"class = "score">0</h3>
+            <button onclick="incrementH1()"class="points">+1</button>
+            <button onclick="incrementH2()"class="points">+2</button>
+            <button onclick="incrementH3()"class="points">+3</button>
+        </div>
+        <div class="flex-container">
+            <h3 id="timer">00:00</h3>
+            <button onclick=" startTimer()" class="btn">START TIMER</button>
+        </div>
+        
+
+
+        <div>
+            <h3 id="guestTitle">GUEST</h3>
+            <h3 id="guest" class = "score">0</h3>
+            <button onclick="incrementG1()"class="points">+1</button>
+            <button onclick="incrementG2()"class="points">+2</button>
+            <button onclick="incrementG3()"class="points">+3</button>
+        </div>
+
+    </div>
+    <button onclick="newGame()"class="newgame">NEW GAME</button>
+    <script src="index.js"></script>
+</body>
+</body>
+</html>
